@@ -1,2 +1,2 @@
 # js-jogo-de-dado
- Jogo de combate com dados usando Javascript
+ Jogo de combate com dados usando Javascript, Classes, CSS in JS 
