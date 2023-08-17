@@ -6,7 +6,7 @@ main.setAttribute("style", "display: flex; align-items: center; justify-content:
 // Area dos layouts
 let lay = document.getElementsByClassName("layout");
 for (let i = 0; i < lay.length; i++) {
-  lay[i].setAttribute("style", "width: 550px; height: 800px; background-color: red;");
+  lay[i].setAttribute("style", "width: 550px; height: 800px; background-color: gray;");
 }
 
 let person = document.getElementsByClassName("layout__person");
@@ -41,7 +41,7 @@ result.setAttribute("style", " width: 350px; display: flex; flex-direction: row;
 let spans = document.getElementsByTagName("span");
 for (let i = 0; i < spans.length; i++) {
     let span = spans[i];
-    span.style.backgroundColor = "green";
+    span.style.backgroundColor = "orange";
     span.style.color = "white";
     span.style.textAlign = "center";
     span.style.padding = "20px";
